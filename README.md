@@ -170,9 +170,9 @@ After=network.target
 
 Type=simple
 
-User=popcache
+User=root
 
-Group=popcache
+Group=root
 
 WorkingDirectory=/opt/popcache
 
