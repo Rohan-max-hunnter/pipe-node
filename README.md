@@ -276,6 +276,14 @@ sudo systemctl daemon-reload
 ```
 ./pop --validate-config
 ```
-
+# If you made any update in your file 
+After you completing editing any file give these to stop node 
+```
+sudo systemctl stop popcache
+```
+```
+sudo systemctl disable popcache
+```
+And re-run node 
 # - Don't forget to join TG channel!
 - https://t.me/realdrophunter
