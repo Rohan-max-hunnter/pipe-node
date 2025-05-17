@@ -73,6 +73,7 @@ sudo mv pop /usr/local/bin/
 sudo chmod +x /usr/local/bin/pop
 pop --help
 ```
+
 # 4. Configuration
 Create and edit the (config.json) file:
 ```
@@ -258,7 +259,7 @@ screen -S pipe
 cd /opt/popcache
 ```
 ```
-./pop --validate-config
+sudo ./pop --validate-config
 ```
 # 💻Next day command
 ```
@@ -274,7 +275,7 @@ sudo systemctl start popcache
 sudo systemctl daemon-reload
 ```
 ```
-./pop --validate-config
+sudo ./pop --validate-config
 ```
 # If you made any update in your file 
 After you completing editing any file give these to stop node 
@@ -284,6 +285,6 @@ sudo systemctl stop popcache
 ```
 sudo systemctl disable popcache
 ```
-And re-run node 
+And re-run node
 # - Don't forget to join TG channel!
 - https://t.me/realdrophunter
