@@ -156,7 +156,7 @@ After putting all information or values use
 
 To edit the popcache service configuration using the nano text editor, run the following command:
 ```
-sudo nano /etc/systemd/system/popcache
+sudo nano /etc/systemd/system/popcache.service
 ```
 Put this 
 ```
