@@ -68,9 +68,17 @@ cd /opt/popcache
 Note: The specific download links for the binaries are provided after registration. Once you have them, download and set executable permissions:
 ```
 wget https://download.pipe.network/static/pop-v0.3.0-linux-x64.tar.gz
+```
+```
 tar -xzf pop-v0.3.0-linux-x64.tar.gz
+```
+```
 sudo mv pop /usr/local/bin/
+```
+```
 sudo chmod +x /usr/local/bin/pop
+```
+```
 pop --help
 ```
 
