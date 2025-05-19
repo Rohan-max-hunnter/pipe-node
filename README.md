@@ -289,7 +289,7 @@ sudo systemctl daemon-reload
 sudo ./pop --validate-config
 ```
 # **FAQ**
-# To checkyour pipe node status 
+# To check your pipe node status 
 ```
 sudo systemctl status popcache
 ```
