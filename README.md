@@ -256,6 +256,9 @@ sudo systemctl start popcache
 ```
 sudo systemctl daemon-reload
 ```
+```
+sudo ./pop --validate-config
+```
  # For VPS user 
  ```
 sudo apt update && apt install screen -y
@@ -285,6 +288,16 @@ sudo systemctl daemon-reload
 ```
 sudo ./pop --validate-config
 ```
+# **FAQ**
+# To checkyour pipe node status 
+```
+sudo systemctl status popcache
+```
+Or you can check on service port using 
+```
+sudo lsof -i :80
+```
+you can see there runing services if you can see pop service in there that means your node is running!
 # If you made any update in your file 
 After you completing editing any file give these to stop node 
 ```
