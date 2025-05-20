@@ -207,9 +207,6 @@ Log rotation
 ```
 sudo nano /etc/logrotate.d/popcache
 ```
-add this ' ` ' 3 times like shown in image 
-
-![image](https://github.com/user-attachments/assets/8587dc8b-9cbe-46d7-aeab-a8310dbc7e22)
 
 ```
 
